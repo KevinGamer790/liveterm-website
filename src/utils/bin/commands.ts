@@ -42,7 +42,6 @@ export const donate = async (args: string[]): Promise<string> => {
   return `thank you for your interest. 
 give me money if u want (pls dont ill feel bad):
 - <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.paypal}" target="_blank">paypal</a></u>
-- <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.patreon}" target="_blank">patreon</a></u>
 `;
 };
 
@@ -80,7 +79,7 @@ export const whoami = async (args: string[]): Promise<string> => {
 };
 
 export const ls = async (args: string[]): Promise<string> => {
-  return `a
+  return `
 besties:
 bailey (@ilyRaluu)
 traffic (@trafficfocks)
