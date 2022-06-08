@@ -33,8 +33,7 @@ export const about = async (args: string[]): Promise<string> => {
   return `Heya, I'm ${config.name}. 
 Welcome to my void!
 More about me:
-'sumfetch' - short summary.
-'readme' - my github readme.`;
+'sumfetch' - short summary.`;
 };
 
 // Donate
@@ -67,6 +66,11 @@ export const google = async (args: string[]): Promise<string> => {
 export const reddit = async (args: string[]): Promise<string> => {
   window.open(`https://www.reddit.com/search/?q=${args.join(' ')}`);
   return `Searching reddit for ${args.join(' ')}...`;
+};
+
+export const twitter = async (args: string[]): Promise<string> => {
+  window.open(`https://www.twitter.com/kevinawrf${args.join(' ')}`);
+  return `Opening Kara's Twitter.`;
 };
 
 // Typical linux commands
