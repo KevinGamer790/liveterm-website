@@ -23,6 +23,7 @@ const sumfetch = async (args: string[]): Promise<string> => {
 `;
   } else {
     return `
+          
     @(%%@@@                                   .%%%%%%%%%%%/  ((%%@%%/                            
       / %%%%%%&@.                                /@%%%%%%%%%%#    , %%%@%%                          
       .%%@@,@%%%%%@                              %&%%%%%%%%%%*      / %%%@%%                        
@@ -40,7 +41,7 @@ const sumfetch = async (args: string[]): Promise<string> => {
   .*********#%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%&@@%%%%%%%@(     %%%%%%%               
      &.*************/%%%%%%%%%%%%%%%%@%%%%%%%%%%%%%%%%%%%%@@@@(. ,#@@@%%%%&@&%%%%%%%@               
        .@  *******%%%%%%%%%%%%%%%%%%%%@%%%%%%%%%%%%%%%%%@@@   @&@@&@@@@@@%%%&%%%%(&,                
-           .(%@&%%%%%%%%@@@@@@@@%%%%%%%&%%%%%%%%%%%%%%%%@@/. @(   @@@%(((@%%%%%%%%%%&&&&&&&         
+           .(%@&%%%%%%%%@@@@@@@@%%%%%%%&%%%%%%%%%%%%%%%%@@/. @(   @@@%(((@%%%%%%%%%%&&&&&&&                                                                                                
              %@%%%%%%%@@@     @@%%%%%%%@%%%%%%%%%%%%%%%%%    @    #(@@@((((&%%%%%%%%%%,  %(         
             %&%####%%%@@    *% %@&@%%%%@%%%%%%%%%%&%%%%%%    #,  @((/@@@///%%%&%%%%%.   /           
            @######%%%&@@ *&*@ # *@&@%%@%%%%%%%%%%%&%%%%%%%    @(((////@@(//(%%&%%%.                 
@@ -63,7 +64,22 @@ const sumfetch = async (args: string[]): Promise<string> => {
                                                   ///////                  %%%%%%%%%%%              
                                    ,                                        %%%%%%%%%&              
                                  *.                                         %%%%%%%%%%&
-                                 art by @goobysart on twitter                          
+                                             art by @goobysart on twitter  
+                                             
+                                         sumfetch: summary display
+                                         -----------
+                                         ABOUT
+                                         ${config.name}
+                                        ﰩ ${config.ps1_hostname}
+                                        爵 <u><a href="${config.repo}" target="_blank">Github repo</a></u>
+                                         -----------
+                                         CONTACT 
+                                         <u><a href="mailto:${config.email}" target="_blank">${config.email}</a></u>
+                                         <u><a href="https://github.com/${config.social.github}" target="_blank">github.com/${config.social.github}</a></u>
+                                         -----------
+                                         DONATE 
+                                         <u><a href="${config.donate_urls.paypal}" target="_blank">${config.donate_urls.paypal}</a></u>                                                        
+                                            
 `;
   }
 };
