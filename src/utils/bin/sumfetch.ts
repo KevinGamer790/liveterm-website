@@ -70,11 +70,12 @@ const sumfetch = async (args: string[]): Promise<string> => {
                                    -----------
                                    ABOUT
                                    ${config.name}
-                                  ﰩ ${config.ps1_hostname}
+                                  ﰩ Any/All
                                   爵 <u><a href="${config.repo}" target="_blank">Github repo</a></u>
                                    -----------
                                    CONTACT 
-                                   <u><a href="https://github.com/${config.social.github}" target="_blank">github.com/${config.social.github}</a></u>
+                                   @kevinawrf on twitter | use the 'twitter' command
+                                   https://discord.gg/californya | use the 'discord' command
                                    -----------
                                    DONATE 
                                    <u><a href="${config.donate_urls.paypal}" target="_blank">${config.donate_urls.paypal}</a></u>                                                        

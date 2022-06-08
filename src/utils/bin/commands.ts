@@ -50,22 +50,27 @@ give me money if u want (pls don't i'll feel bad(i mean hey free valorant skins 
 // Search
 export const spotify = async (args: string[]): Promise<string> => {
   window.open(`https://open.spotify.com/user/31eiw743lvsyx3avp5dk4grkgvti${args.join(' ')}`);
-  return `Opening Kara's Spotify.`;
+  return `Opening Kara's Spotify...`;
 };
 
 export const twitter = async (args: string[]): Promise<string> => {
   window.open(`https://www.twitter.com/kevinawrf${args.join(' ')}`);
-  return `Opening Kara's Twitter.`;
+  return `Opening Kara's Twitter...`;
 };
 
 export const youtube = async (args: string[]): Promise<string> => {
   window.open(`https://youtube.com/c/KevinGamer790${args.join(' ')}`);
-  return `Opening Kara's Youtube.`;
+  return `Opening Kara's Youtube...`;
 };
 
 export const steam = async (args: string[]): Promise<string> => {
   window.open(`https://steamcommunity.com/profiles/76561198232790108${args.join(' ')}`);
-  return `Opening Kara's Steam.`;
+  return `Opening Kara's Steam...`;
+};
+
+export const discord = async (args: string[]): Promise<string> => {
+  window.open(`https://discord.gg/californya${args.join(' ')}`);
+  return `Opening Californya...`;
 };
 
 // Typical linux commands
