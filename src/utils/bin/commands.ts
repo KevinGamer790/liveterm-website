@@ -58,19 +58,24 @@ export const github = async (args: string[]): Promise<string> => {
 
 
 // Search
-export const google = async (args: string[]): Promise<string> => {
-  window.open(`https://google.com/search?q=${args.join(' ')}`);
-  return `Searching google for ${args.join(' ')}...`;
-};
-
-export const reddit = async (args: string[]): Promise<string> => {
-  window.open(`https://www.reddit.com/search/?q=${args.join(' ')}`);
-  return `Searching reddit for ${args.join(' ')}...`;
+export const spotify = async (args: string[]): Promise<string> => {
+  window.open(`https://open.spotify.com/user/31eiw743lvsyx3avp5dk4grkgvti${args.join(' ')}`);
+  return `Opening Kara's Spotify.`;
 };
 
 export const twitter = async (args: string[]): Promise<string> => {
   window.open(`https://www.twitter.com/kevinawrf${args.join(' ')}`);
   return `Opening Kara's Twitter.`;
+};
+
+export const youtube = async (args: string[]): Promise<string> => {
+  window.open(`youtube.com/c/KevinGamer790${args.join(' ')}`);
+  return `Opening Kara's Twitter.`;
+};
+
+export const steam = async (args: string[]): Promise<string> => {
+  window.open(`https://steamcommunity.com/profiles/76561198232790108${args.join(' ')}`);
+  return `Opening Kara's Steam.`;
 };
 
 // Typical linux commands
