@@ -45,16 +45,6 @@ give me money if u want (pls don't i'll feel bad(i mean hey free valorant skins 
 };
 
 // Contact
-export const email = async (args: string[]): Promise<string> => {
-  window.open(`mailto:${config.email}`);
-  return `Opening mailto:${config.email}...`;
-};
-
-export const github = async (args: string[]): Promise<string> => {
-  window.open(`https://github.com/${config.social.github}/`);
-
-  return 'Opening github...';
-};
 
 
 // Search
