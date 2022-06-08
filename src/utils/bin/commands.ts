@@ -69,8 +69,8 @@ export const twitter = async (args: string[]): Promise<string> => {
 };
 
 export const youtube = async (args: string[]): Promise<string> => {
-  window.open(`youtube.com/c/KevinGamer790${args.join(' ')}`);
-  return `Opening Kara's Twitter.`;
+  window.open(`https://youtube.com/c/KevinGamer790${args.join(' ')}`);
+  return `Opening Kara's Youtube.`;
 };
 
 export const steam = async (args: string[]): Promise<string> => {
