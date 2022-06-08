@@ -30,8 +30,8 @@ export const repo = async (args: string[]): Promise<string> => {
 
 // About
 export const about = async (args: string[]): Promise<string> => {
-  return `Hi, I am ${config.name}. 
-Welcome to my website!
+  return `Heya, I'm ${config.name}. 
+Welcome to my void!
 More about me:
 'sumfetch' - short summary.
 'readme' - my github readme.`;
@@ -40,7 +40,7 @@ More about me:
 // Donate
 export const donate = async (args: string[]): Promise<string> => {
   return `thank you for your interest. 
-give me money if u want (pls dont ill feel bad):
+give me money if u want (pls don't i'll feel bad(i mean hey free valorant skins ig)):
 - <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.paypal}" target="_blank">paypal</a></u>
 `;
 };
@@ -115,7 +115,7 @@ export const emacs = async (args?: string[]): Promise<string> => {
 
 export const sudo = async (args?: string[]): Promise<string> => {
   window.open('https://www.youtube.com/c/MrWitherGuy', '_blank'); // ...I'm sorry
-  return `Permission denied: with little power comes... no responsibility? `;
+  return `L rip bozo you aren't getting root anyways go watch a mrwitherguy video`;
 };
 
 // Banner
