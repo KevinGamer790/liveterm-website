@@ -75,7 +75,7 @@ const sumfetch = async (args: string[]): Promise<string> => {
                                    -----------
                                    CONTACT 
                                    @kevinawrf on twitter | use the 'twitter' command
-                                   https://discord.gg/californya | use the 'discord' command
+                                   https://discord.gg/zNFxq4QEy2 | use the 'discord' command
                                    -----------
                                    DONATE 
                                    <u><a href="${config.donate_urls.paypal}" target="_blank">${config.donate_urls.paypal}</a></u>                                                        

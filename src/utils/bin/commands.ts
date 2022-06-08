@@ -69,7 +69,7 @@ export const steam = async (args: string[]): Promise<string> => {
 };
 
 export const discord = async (args: string[]): Promise<string> => {
-  window.open(`https://discord.gg/californya${args.join(' ')}`);
+  window.open(`https://discord.gg/zNFxq4QEy2${args.join(' ')}`);
   return `Opening Californya...`;
 };
 
