@@ -67,6 +67,7 @@ export const neofetch = async (args: string[]): Promise<string> => {
                                  Pubwic IP: 76.76.21.21
   
 `;
+};
 
 // Search
 export const spotify = async (args: string[]): Promise<string> => {
