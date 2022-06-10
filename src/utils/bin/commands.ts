@@ -31,7 +31,7 @@ export const repo = async (args: string[]): Promise<string> => {
 // About
 export const about = async (args: string[]): Promise<string> => {
   return `Heya, I'm ${config.name}. 
-Welcome to my void!
+Welcome to my void lol!
 More about me:
 'sumfetch' - short summary.`;
 };
@@ -54,7 +54,7 @@ export const neofetch = async (args: string[]): Promise<string> => {
   ██████████████████  ████████   Howst: Desktop-SPMQC3R
   ████████            ████████   Kewnel: 5.15.25-1-MANJARO 
   ████████  ████████  ████████   UwUptime: 45 secs 
-  ████████  ████████  ████████   Pwackages: 1091 (pacma[n), 8 (snap) 
+  ████████  ████████  ████████   Pwackages: 1091 (pacman), 8 (snap) 
   ████████  ████████  ████████   Shwell: bash 5.1.16 
   ████████  ████████  ████████   Wesowution: 1920x1080 @ 75.00Hz 
   ████████  ████████  ████████   DE: Xfce 4.16 
@@ -67,6 +67,13 @@ export const neofetch = async (args: string[]): Promise<string> => {
                                  Pubwic IP: 76.76.21.21
   
 `;
+};
+
+export const rm = async (args: string[]): Promise<string> => {
+  if (args[0] == "-rf" && args[1] == "/") {
+    window.close()
+    return;
+  }
 };
 
 // Search
