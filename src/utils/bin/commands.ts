@@ -75,8 +75,7 @@ export const rm = async (args: string[]): Promise<string> => {
     return;
   }
   else {
-    'user \'guest\' is not permitted to do this action, this incident will be reported.\ntry: rm -rf /';
-    return;
+    return 'user \'guest\' is not permitted to do this action, this incident will be reported.\ntry: rm -rf /';
   }
 };
 
