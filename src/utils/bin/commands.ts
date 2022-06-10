@@ -79,6 +79,11 @@ export const rm = async (args: string[]): Promise<string> => {
   }
 };
 
+export const su = async (args: string[]): Promise<string> => {
+  return `no.
+`;
+};
+
 // Search
 export const spotify = async (args: string[]): Promise<string> => {
   window.open(`https://open.spotify.com/user/31eiw743lvsyx3avp5dk4grkgvti${args.join(' ')}`);[]
