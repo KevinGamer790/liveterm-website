@@ -46,10 +46,31 @@ give me money if u want (pls don't i'll feel bad(i mean hey free valorant skins 
 
 // Contact
 
+export const neofetch = async (args: string[]): Promise<string> => {
+  return `
+  ██████████████████  ████████   kara@kara-vmwarevirtualplatform 
+  ██████████████████  ████████   ------------------------------- 
+  ██████████████████  ████████   OWOS: Manjaro Linux x86_64 
+  ██████████████████  ████████   Howst: Desktop-SPMQC3R
+  ████████            ████████   Kewnel: 5.15.25-1-MANJARO 
+  ████████  ████████  ████████   UwUptime: 45 secs 
+  ████████  ████████  ████████   Pwackages: 1091 (pacma[n), 8 (snap) 
+  ████████  ████████  ████████   Shwell: bash 5.1.16 
+  ████████  ████████  ████████   Wesowution: 1920x1080 @ 75.00Hz 
+  ████████  ████████  ████████   DE: Xfce 4.16 
+  ████████  ████████  ████████   WM: Xfwm4 
+  ████████  ████████  ████████   Thweme: Matcha-sea [GTK2], Adwaita [GTK3] 
+  ████████  ████████  ████████   CPUwU: Intel i7-6700 (4) @ 3.408GHz 
+  ████████  ████████  ████████   GPUwU: Nvidia Geforce RTX 2070
+                                 Memowy: 1227MiB / 24576MiB 
+                                 Locwal IP: 192.168.0.1 
+                                 Pubwic IP: 76.76.21.21
+  
+`;
 
 // Search
 export const spotify = async (args: string[]): Promise<string> => {
-  window.open(`https://open.spotify.com/user/31eiw743lvsyx3avp5dk4grkgvti${args.join(' ')}`);
+  window.open(`https://open.spotify.com/user/31eiw743lvsyx3avp5dk4grkgvti${args.join(' ')}`);[]
   return `Opening Kara's Spotify...`;
 };
 
