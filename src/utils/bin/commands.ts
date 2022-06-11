@@ -32,6 +32,8 @@ export const repo = async (args: string[]): Promise<string> => {
 export const about = async (args: string[]): Promise<string> => {
   return `Heya, I'm ${config.name}. 
 Welcome to my void lol!
+Just a lil woof woof
+any/all
 More about me:
 'sumfetch' - short summary.`;
 };
@@ -48,7 +50,7 @@ give me money if u want (pls don't i'll feel bad(i mean hey free valorant skins 
 
 export const neofetch = async (args: string[]): Promise<string> => {
   return `
-  ██████████████████  ████████   kara@kara-vmwarevirtualplatform 
+  ██████████████████  ████████   guest@kara
   ██████████████████  ████████   ------------------------------- 
   ██████████████████  ████████   OWOS: Manjaro Linux x86_64 
   ██████████████████  ████████   Howst: Desktop-SPMQC3R
