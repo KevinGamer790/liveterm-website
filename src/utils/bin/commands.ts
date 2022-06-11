@@ -123,7 +123,7 @@ export const whoami = async (args: string[]): Promise<string> => {
 
 export const ls = async (args: string[]): Promise<string> => {
   return `
-besties:
+besties (not directories fuck you L):
 bailey (@ilyRaluu)
 traffic (@trafficfocks)
 will (@mrwitherguy)
