@@ -74,8 +74,8 @@ const sumfetch = async (args: string[]): Promise<string> => {
                                   爵 <u><a href="${config.repo}" target="_blank">Github repo</a></u>
                                    -----------
                                    CONTACT 
-                                   <u><a href= "https://twitter.com/kevinawrf" target="https://twitter.com/kevinawrf">@kevinawrf on twitter</a></u> | use the 'twitter' command
-                                   <u><a href="https://discord.gg/zNFxq4QEy2" target="https://discord.gg/zNFxq4QEy2">Californya Discord Server</a></u> | use the 'discord' command
+                                   <u><a href= "https://twitter.com/kevinawrf" target="https://twitter.com/kevinawrf">@kevinawrf on twitter</a></u> | use the 'twitter' command
+                                   <u><a href="https://discord.gg/zNFxq4QEy2" target="https://discord.gg/zNFxq4QEy2">Californya Discord Server</a></u> | use the 'discord' command
                                    -----------
                                    DONATE 
                                    <u><a href="${config.donate_urls.paypal}" target="_blank">${config.donate_urls.paypal}</a></u>                                                        
