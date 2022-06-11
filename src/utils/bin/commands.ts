@@ -32,8 +32,8 @@ export const repo = async (args: string[]): Promise<string> => {
 export const about = async (args: string[]): Promise<string> => {
   return `Heya, I'm ${config.name}. 
 Welcome to my void lol!
-Just a lil woof woof
-any/all
+- Just a lil woof woof
+- any/all
 More about me:
 'sumfetch' - short summary.`;
 };
