@@ -128,7 +128,8 @@ bailey (@ilyRaluu)
 traffic (@trafficfocks)
 will (@mrwitherguy)
 kaha (@luvkaha)
-leaf (@gaymrow)`;
+leaf (@gaymrow)
+goldy (@Goldensliv)`;
 };
 
 export const cd = async (args: string[]): Promise<string> => {
@@ -157,8 +158,8 @@ export const emacs = async (args?: string[]): Promise<string> => {
 };
 
 export const sudo = async (args?: string[]): Promise<string> => {
-  window.open('https://www.youtube.com/c/MrWitherGuy', '_blank'); // ...I'm sorry
-  return `L rip bozo you aren't getting root anyways go watch a mrwitherguy video`;
+  window.open('https://i.hateithere.xyz/', '_blank'); // ...I'm sorry
+  return `L rip bozo you aren't getting root anyways if you want root go get a manjaro image from bestie goldy`;
 };
 
 // Banner
