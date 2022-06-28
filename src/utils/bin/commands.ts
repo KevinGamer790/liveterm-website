@@ -88,10 +88,12 @@ export const su = async (args: string[]): Promise<string> => {
 `;
 };
 
-var main = new Audio('main.mp3');
+
 
 export const music = async (args: string[]): Promise<string> => {
+  var main = new Audio('main.mp3');
   main.play();
+  return 'Playing: TUNIC (Original Soundtrack) - 50 Flux Is On / Lifeformed × Janice Kwan';
 };
 
 // Search
