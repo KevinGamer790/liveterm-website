@@ -20,7 +20,7 @@
     "light": {
       "background": "#FDF6E3",
       "foreground": "#586E75",
-      "yellow": "#FEC418",
+      "yellow": "#FF05B9",
       "green": "#48B685",
       "gray": "#6C71C4",
       "blue": "#268BD2",
@@ -29,7 +29,7 @@
     "dark": {
       "background": "#002B36",
       "foreground": "#93A1A1",
-      "yellow": "#FEC418",
+      "yellow": "#FF05B9",
       "green": "#48B685",
       "gray": "#6C71C4",
       "blue": "#268BD2",
