@@ -2,7 +2,7 @@
 
 import * as bin from './index';
 import config from '../../../config.json';
-
+const main = ("./main.mp3");
 // Help
 export const help = async (args: string[]): Promise<string> => {
   const commands = Object.keys(bin).sort().join(', ');
@@ -91,8 +91,7 @@ export const su = async (args: string[]): Promise<string> => {
 
 
 export const music = async (args: string[]): Promise<string> => {
-  var myAudio = new Audio("main.mp3");
-  myAudio.play();
+  main;
   return 'Playing: TUNIC (Original Soundtrack) - 50 Flux Is On / Lifeformed × Janice Kwan';
 };
 
