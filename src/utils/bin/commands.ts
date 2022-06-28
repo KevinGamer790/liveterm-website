@@ -22,6 +22,8 @@ Type 'sumfetch' to display summary.
 `;
 };
 
+
+
 // Redirection
 export const repo = async (args: string[]): Promise<string> => {
   window.open(`${config.repo}`);
@@ -84,6 +86,12 @@ export const rm = async (args: string[]): Promise<string> => {
 export const su = async (args: string[]): Promise<string> => {
   return `no.
 `;
+};
+
+var main = new Audio('main.mp3');
+
+export const music = async (args: string[]): Promise<string> => {
+  main.play();
 };
 
 // Search
