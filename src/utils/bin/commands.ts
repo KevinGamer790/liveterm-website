@@ -2,7 +2,7 @@
 
 import * as bin from './index';
 import config from '../../../config.json';
-
+import main from './main.mp3'
 // Help
 export const help = async (args: string[]): Promise<string> => {
   const commands = Object.keys(bin).sort().join(', ');
@@ -88,12 +88,11 @@ export const su = async (args: string[]): Promise<string> => {
 };
 
 
-const htmlaudio: HTMLAudioElement = new Audio(require('./main.mp3'));
 
 
 export const music = async (args: string[]): Promise<string> => {
-  htmlaudio.play();
-  return;
+  main;
+  return 'test';
 };
 
 // Search
