@@ -2,7 +2,6 @@
 
 import * as bin from './index';
 import config from '../../../config.json';
-import main from './main.mp3'
 // Help
 export const help = async (args: string[]): Promise<string> => {
   const commands = Object.keys(bin).sort().join(', ');
@@ -90,10 +89,7 @@ export const su = async (args: string[]): Promise<string> => {
 
 
 
-export const music = async (args: string[]): Promise<string> => {
-  main;
-  return 'test';
-};
+
 
 // Search
 export const spotify = async (args: string[]): Promise<string> => {
