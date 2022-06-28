@@ -84,14 +84,16 @@ export const rm = async (args: string[]): Promise<string> => {
 };
 
 export const su = async (args: string[]): Promise<string> => {
-  return `no.
-`;
+  return `no.`;
 };
 
 
+const htmlaudio: HTMLAudioElement = new Audio(require('./main.mp3'));
+
 
 export const music = async (args: string[]): Promise<string> => {
-  return `${config.music}`;
+  htmlaudio.play();
+  return 
 };
 
 // Search
