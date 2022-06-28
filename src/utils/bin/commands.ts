@@ -93,7 +93,7 @@ const htmlaudio: HTMLAudioElement = new Audio(require('./main.mp3'));
 
 export const music = async (args: string[]): Promise<string> => {
   htmlaudio.play();
-  return 
+  return;
 };
 
 // Search
