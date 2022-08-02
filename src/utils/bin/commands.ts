@@ -35,8 +35,8 @@ export const about = async (args: string[]): Promise<string> => {
 Welcome to my void!
 - Just a lil woof woof
 - AFJROTC marksman, #7 in the branch
-- 2 time Cyberpatriot state champion
-- Always open to make new friends and talk^^
+- Two time Cyberpatriot state champion
+- Always down to make new friends and talk^^
 More about me:
 'sumfetch' - short summary.`;
 };
@@ -44,7 +44,7 @@ More about me:
 // Donate
 export const donate = async (args: string[]): Promise<string> => {
   return `thank you for your interest. 
-give me money if u want (pls don't i'll feel bad(i mean hey free money ig tyty)):
+give me money if u want (pls don't i'll feel bad(i mean hey free money tyty)):
 - <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.paypal}" target="_blank">paypal</a></u>
 `;
 };
@@ -150,7 +150,7 @@ export const date = async (args: string[]): Promise<string> => {
 
 export const sudo = async (args?: string[]): Promise<string> => {
   window.open('https://i.hateithere.xyz/', '_blank'); // ...I'm sorry
-  return `L rip bozo you aren't getting root anyways if you want root go get a manjaro image from bestie goldy`;
+  return `if you want root go get a manjaro image from bestie goldy`;
 };
 
 // Banner
