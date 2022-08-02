@@ -32,9 +32,11 @@ export const repo = async (args: string[]): Promise<string> => {
 // About
 export const about = async (args: string[]): Promise<string> => {
   return `Heya, I'm ${config.name}. 
-Welcome to my void lol!
+Welcome to my void!
 - Just a lil woof woof
-- any/all
+- AFJROTC marksman, #7 in the branch
+- 2 time Cyberpatriot state champion
+- Always open to make new friends and talk^^
 More about me:
 'sumfetch' - short summary.`;
 };
@@ -42,7 +44,7 @@ More about me:
 // Donate
 export const donate = async (args: string[]): Promise<string> => {
   return `thank you for your interest. 
-give me money if u want (pls don't i'll feel bad(i mean hey free valorant skins ig)):
+give me money if u want (pls don't i'll feel bad(i mean hey free money ig tyty)):
 - <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.paypal}" target="_blank">paypal</a></u>
 `;
 };
@@ -144,22 +146,6 @@ if you want to help, you can type 'donate'.`;
 
 export const date = async (args: string[]): Promise<string> => {
   return new Date().toString();
-};
-
-export const vi = async (args: string[]): Promise<string> => {
-  return `woah, you still use 'vi'? just try 'vim'.`;
-};
-
-export const vim = async (args: string[]): Promise<string> => {
-  return `'vim' is so outdated. how about 'nvim'?`;
-};
-
-export const nvim = async (args: string[]): Promise<string> => {
-  return `'nvim'? too fancy. why not 'emacs'?`;
-};
-
-export const emacs = async (args?: string[]): Promise<string> => {
-  return `you know what? just use vscode fuck you.`;
 };
 
 export const sudo = async (args?: string[]): Promise<string> => {
