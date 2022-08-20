@@ -55,21 +55,21 @@ export const neofetch = async (args: string[]): Promise<string> => {
   return `
   ██████████████████  ████████   guest@kara
   ██████████████████  ████████   ------------------------------- 
-  ██████████████████  ████████   OWOS: Manjaro Linux x86_64 
-  ██████████████████  ████████   Howst: Desktop-SPMQC3R
-  ████████            ████████   Kewnel: 5.15.25-1-MANJARO 
-  ████████  ████████  ████████   UwUptime: 45 secs 
-  ████████  ████████  ████████   Pwackages: 1091 (pacman), 8 (snap) 
-  ████████  ████████  ████████   Shwell: bash 5.1.16 
-  ████████  ████████  ████████   Wesowution: 1920x1080 @ 75.00Hz 
+  ██████████████████  ████████   OS: Manjaro Linux x86_64 
+  ██████████████████  ████████   Host: Desktop-SPMQC3R
+  ████████            ████████   Kernel: 5.15.25-1-MANJARO 
+  ████████  ████████  ████████   Uptime: 45 secs 
+  ████████  ████████  ████████   Packages: 1091 (pacman), 8 (snap) 
+  ████████  ████████  ████████   Shell: bash 5.1.16 
+  ████████  ████████  ████████   Resoution: 1920x1080 @ 75.00Hz 
   ████████  ████████  ████████   DE: Xfce 4.16 
   ████████  ████████  ████████   WM: Xfwm4 
-  ████████  ████████  ████████   Thweme: Matcha-sea [GTK2], Adwaita [GTK3] 
-  ████████  ████████  ████████   CPUwU: Intel i7-6700 (4) @ 3.408GHz 
-  ████████  ████████  ████████   GPUwU: Nvidia Geforce RTX 2070
-                                 Memowy: 1227MiB / 24576MiB 
-                                 Locwal IP: 192.168.0.1 
-                                 Pubwic IP: 76.76.21.21
+  ████████  ████████  ████████   Theme: Matcha-sea [GTK2], Adwaita [GTK3] 
+  ████████  ████████  ████████   CPU: Intel i7-6700 (4) @ 3.408GHz 
+  ████████  ████████  ████████   GPU: Nvidia Geforce RTX 2070
+                                 Memory: 1227MiB / 24576MiB 
+                                 Local IP: 192.168.0.1 
+                                 Public IP: 76.76.21.21
   
 `;
 };
@@ -132,6 +132,7 @@ export const ls = async (args: string[]): Promise<string> => {
   return `
 besties (not directories fuck you L):
 bailey (@ilyRaluu)
+salju (@SaljuBoi)
 traffic (@trafficfocks)
 will (@mrwitherguy)
 kaha (@luvkaha)
