@@ -131,7 +131,7 @@ export const whoami = async (args: string[]): Promise<string> => {
 export const avatar = async (args: string[]): Promise<string> => {
   if (args[0] == "Y" || args[0] == "y") 
   {
-    window.open(`https://github.com/KevinGamer790/liveterm-website/blob/f8e3e0a53bea97cc8842c55cb8b42c00a6a0e158/downloads/Kara.KaraAvatar.rar${args.join(' ')}`);
+    window.open(`https://github.com/KevinGamer790/liveterm-website/blob/f8e3e0a53bea97cc8842c55cb8b42c00a6a0e158/downloads/Kara.KaraAvatar.rar`);
     return 'Thank you for taking interest, I hope you enjoy playing as Kara!';
   }
   else {
