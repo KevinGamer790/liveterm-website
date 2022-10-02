@@ -128,6 +128,23 @@ export const whoami = async (args: string[]): Promise<string> => {
   return `${config.ps1_username}`;
 };
 
+export const avatar = async (args: string[]): Promise<string> => {
+  if (args[0] != "Y", "N", "y", "n") 
+  {
+    return 'Would you like to download my BoneLabs avatar? Y or N?'
+  }
+  else if (args[0] == "Y", "y")
+  {
+    window.open(`https://downgit.github.io/#/home?url=https://github.com/KevinGamer790/liveterm-website/blob/main/downloads/Kara.KaraAvatar.rar${args.join(' ')}`);
+    return 'Thank you for taking interest, hope you enjoy playing as Kara!';
+  }
+  else
+  {
+    
+  }
+  
+};
+
 export const ls = async (args: string[]): Promise<string> => {
   return `
 besties (not directories fuck you L):
