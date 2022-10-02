@@ -129,19 +129,13 @@ export const whoami = async (args: string[]): Promise<string> => {
 };
 
 export const avatar = async (args: string[]): Promise<string> => {
-  if (args[0] != "Y", "N", "y", "n") 
-  {
-    return 'Would you like to download my BoneLabs avatar? Type "avatar Y" to download!'
+  if (args[0] == "Y" || args[0] == "y") {
+    return 'Thank you for taking interest, I hope you enjoy playing as Kara!'
   }
-  else if (args[0] == "Y" || args[0] == "y")
-  {
-    window.open(`https://downgit.github.io/#/home?url=https://github.com/KevinGamer790/liveterm-website/blob/main/downloads/Kara.KaraAvatar.rar${args.join(' ')}`);
-    return 'Thank you for taking interest, I hope you enjoy playing as Kara!';
+  else {
+    return 'Would you like to download my Bonelabs avatar? Type \'avatar Y\' to download!';
   }
-  else
-  {
-    
-  }
+};
   
 };
 
