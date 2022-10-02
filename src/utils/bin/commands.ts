@@ -133,7 +133,7 @@ export const avatar = async (args: string[]): Promise<string> => {
   {
     return 'Would you like to download my BoneLabs avatar? Type "avatar Y" to download!'
   }
-  else if (args[1] == "Y", "y")
+  else if (args[0] == "Y", "y")
   {
     window.open(`https://downgit.github.io/#/home?url=https://github.com/KevinGamer790/liveterm-website/blob/main/downloads/Kara.KaraAvatar.rar${args.join(' ')}`);
     return 'Thank you for taking interest, hope you enjoy playing as Kara!';
