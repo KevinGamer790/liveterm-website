@@ -138,8 +138,6 @@ export const avatar = async (args: string[]): Promise<string> => {
     return 'Would you like to download my Bonelabs avatar? Type \'avatar Y\' to download!';
   }
 };
-  
-};
 
 export const ls = async (args: string[]): Promise<string> => {
   return `
