@@ -135,7 +135,7 @@ export const avatar = async (args: string[]): Promise<string> => {
     return 'Thank you for taking interest, I hope you enjoy playing as Kara!';
   }
   else {
-    return 'Would you like to download my Bonelabs avatar? <u><a href= "https://downgit.github.io/#/home?url=https://github.com/KevinGamer790/liveterm-website/blob/main/downloads/Kara.KaraAvatar.rar" target="https://downgit.github.io/#/home?url=https://github.com/KevinGamer790/liveterm-website/blob/main/downloads/Kara.KaraAvatar.rar">Click here</a></u> or ype \'avatar Y\' to download!';
+    return 'Would you like to download my Bonelabs avatar? <u><a href= "https://downgit.github.io/#/home?url=https://github.com/KevinGamer790/liveterm-website/blob/main/downloads/Kara.KaraAvatar.rar" target="https://downgit.github.io/#/home?url=https://github.com/KevinGamer790/liveterm-website/blob/main/downloads/Kara.KaraAvatar.rar">Click here</a></u> or type \'avatar Y\' to download!';
   }
 };
 
