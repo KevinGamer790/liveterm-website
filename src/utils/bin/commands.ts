@@ -77,7 +77,7 @@ export const neofetch = async (args: string[]): Promise<string> => {
 export const rm = async (args: string[]): Promise<string> => {
   if (args[0] == "-rf" && args[1] == "/") {
     window.close();
-    return 'bye'
+    return 'this cmd only works like 25% of the time I love typescript'
   }
   else {
     return 'user \'guest\' is not permitted to do this action, this incident will be reported.\ntry: rm -rf /';
