@@ -115,8 +115,12 @@ export const steam = async (args: string[]): Promise<string> => {
 };
 
 export const discord = async (args: string[]): Promise<string> => {
-  window.open(`https://discord.gg/zNFxq4QEy2${args.join(' ')}`);
-  return `Opening Californya...`;
+  return `Kara#0007`;
+};
+
+export const tumblr = async (args: string[]): Promise<string> => {
+  window.open(`https://at.tumblr.com/karawa/hdw58xln54so${args.join(' ')}`);
+  return `Opening Kara's Tumblr...`;
 };
 
 // Typical linux commands
