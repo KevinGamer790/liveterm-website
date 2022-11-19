@@ -123,6 +123,12 @@ export const tumblr = async (args: string[]): Promise<string> => {
   return `Opening Kara's Tumblr...`;
 };
 
+export const pronounspage = async (args: string[]): Promise<string> => {
+  window.open(`https://en.pronouns.page/@Karawa${args.join(' ')}`);
+  return `Opening Kara's Pronouns Page`;
+};
+
+
 // Typical linux commands
 export const echo = async (args: string[]): Promise<string> => {
   return args.join(' ');
