@@ -128,6 +128,11 @@ export const pronounspage = async (args: string[]): Promise<string> => {
   return `Opening Kara's Pronouns Page`;
 };
 
+export const spotistats = async (args: string[]): Promise<string> => {
+  window.open(`https://stats.fm/karawa${args.join(' ')}`);
+  return `Opening Kara's stats.fm...`;
+};
+
 
 // Typical linux commands
 export const echo = async (args: string[]): Promise<string> => {
