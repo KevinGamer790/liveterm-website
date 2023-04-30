@@ -115,7 +115,7 @@ export const steam = async (args: string[]): Promise<string> => {
 };
 
 export const discord = async (args: string[]): Promise<string> => {
-  return `Kara#0007`;
+  return `Kara#0007, server invite: <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.discord}" target="_blank">https://discord.gg/55gxzUrfKV</a></u>`;
 };
 
 export const tumblr = async (args: string[]): Promise<string> => {
@@ -167,14 +167,11 @@ export const avatar = async (args: string[]): Promise<string> => {
 
 export const ls = async (args: string[]): Promise<string> => {
   return `
-besties (@"Twitter Handle Here"):
-bailey (@ilyRaluu)
-salju (@SaljuBoi)
-traffic (@trafficfocks)
-will (@mrwitherguy)
-kaha (@luvkaha)
-leaf (@gaymrow)
-goldy (@Goldensliv)`;
+  Local Disk (C:) ███████████▒░░ 81%
+  Google Drive (D:) ███░░░░░░░░░░░░░░░░░ 15%
+  DATA (E:) ███████████▒░░░░ 71%
+  SSD1TB (F:) ██████████████░░░░░░ 70%
+`;
 };
 
 export const cd = async (args: string[]): Promise<string> => {
@@ -187,8 +184,7 @@ export const date = async (args: string[]): Promise<string> => {
 };
 
 export const sudo = async (args?: string[]): Promise<string> => {
-  window.open('https://i.hateithere.xyz/', '_blank'); // ...I'm sorry
-  return `if you want root go get a manjaro image from bestie goldy`;
+  return `yeah... you're gonna need 'su'`;
 };
 
 export const taffy = async (args: string[]): Promise<string> => {
@@ -242,8 +238,23 @@ export const taffy = async (args: string[]): Promise<string> => {
 %%%@%%%%@           # ,,@ #(        @%###%%##%%%%@(((@@&&&&@&&&&&&&&&&&&&&&&&&@&(/. %//  &&    /% @&@&&&&&&&&&&&&&&&&&&&&&#&&
 %%%%&@%%%.          ,@%            @%%%@@/,*#%%%%%%@&&&@&&&&&&@.,&&&&&&&&&&&@&&&(/  @(////////&&@ @&&&@&&&&&&&&&#&#%%&###&#&&
 
-                                        Art by @Sir_Blunt on Twitter
+                                        -Art by @Sir_Blunt on Twitter-
                                               
+`;
+};
+
+export const friends = async (args: string[]): Promise<string> => {
+  return `
+friend (@"Twitter Handle Here", "website"):
+bailey (@ilyRaluu, <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.ralu}" target="_blank">https://ralu.carrd.co</a></u>)
+salju (@SaljuBoi)
+traffic (@trafficfocks)
+will (@mrwitherguy)
+kaha (@luvkaha)
+leaf (@gaymrow)
+goldy (@Goldensliv, <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.goldy}" target="_blank">https://i.hateithere.xyz</a></u>)
+kiki (@Kikicat1234, <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.kiki}" target="_blank">https://kikicat123.ca</a></u>)
+supbudy (@SupBudyasWel, <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.max}" target="_blank">https://en.pronouns.page/@supbudy</a></u>)
 `;
 };
 
