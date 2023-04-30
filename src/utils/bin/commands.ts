@@ -166,10 +166,7 @@ export const avatar = async (args: string[]): Promise<string> => {
 };
 
 export const ls = async (args: string[]): Promise<string> => {
-  return `Local Disk (C:) ███████████▒░░ 81%
-  Google Drive (D:) ███░░░░░░░░░░░░░░░░░ 15%
-  DATA (E:) ███████████▒░░░░ 71%
-  SSD1TB (F:) ██████████████░░░░░░ 70%
+  return `Local Disk (C:) ███████████▒░░ 81%\nGoogle Drive (D:) ███░░░░░░░░░░░░░░░░░ 15%\nDATA (E:) ███████████▒░░░░ 71%\nSSD1TB (F:) ██████████████░░░░░░ 70%
 `;
 };
 
