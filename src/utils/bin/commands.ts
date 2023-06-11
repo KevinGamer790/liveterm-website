@@ -33,50 +33,25 @@ export const repo = async (args: string[]): Promise<string> => {
 export const about = async (args: string[]): Promise<string> => {
   return `Heya, I'm ${config.name}. 
 Welcome to my void!
-- Just a lil woof woof
-- AFJROTC marksman, #7 in the branch
-- Three time Cyberpatriot state champion
-- Always down to make new friends and talk^^
-More about me:
-'sumfetch' - short summary.`;
+| Heya! I'm Kara
+| I speak English and am currently learning French
+| Hobbyist web and game developer
+| Massive music enjoyer
+| Three time Cyberpatriot state champion
+| Professional AFJROTC marksman
+| My discord username is 'karawrf', feel free to add me!`;
 };
 
-// Donate
-export const donate = async (args: string[]): Promise<string> => {
-  return `thank you for your interest. 
-give me money if u want (pls don't i'll feel bad(i mean hey free money tyty)):
-- <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.paypal}" target="_blank">paypal</a></u>
-`;
-};
 
 // Contact
 
-export const neofetch = async (args: string[]): Promise<string> => {
-  return `
-  ██████████████████  ████████   guest@kara
-  ██████████████████  ████████   ------------------------------- 
-  ██████████████████  ████████   OS: Manjaro Linux x86_64 
-  ██████████████████  ████████   Host: Desktop-SPMQC3R
-  ████████            ████████   Kernel: 5.15.25-1-MANJARO 
-  ████████  ████████  ████████   Uptime: 45 secs 
-  ████████  ████████  ████████   Packages: 1091 (pacman), 8 (snap) 
-  ████████  ████████  ████████   Shell: bash 5.1.16 
-  ████████  ████████  ████████   Resoution: 1920x1080 @ 75.00Hz 
-  ████████  ████████  ████████   DE: Xfce 4.16 
-  ████████  ████████  ████████   WM: Xfwm4 
-  ████████  ████████  ████████   Theme: Matcha-sea [GTK2], Adwaita [GTK3] 
-  ████████  ████████  ████████   CPU: Intel i7-6700 (4) @ 3.408GHz 
-  ████████  ████████  ████████   GPU: Nvidia Geforce RTX 2070
-                                 Memory: 1227MiB / 24576MiB 
-                                 Local IP: 192.168.0.1 
-                                 Public IP: 76.76.21.21
-  
-`;
-};
 
 export const rm = async (args: string[]): Promise<string> => {
   if (args[0] == "-rf" && args[1] == "/") {
     window.close();
+    window.close();
+    window.close();
+    window.close(); //please work
     return 'this cmd only works like 25% of the time I love typescript'
   }
   else {
@@ -115,12 +90,7 @@ export const steam = async (args: string[]): Promise<string> => {
 };
 
 export const discord = async (args: string[]): Promise<string> => {
-  return `Kara#0007, server invite: <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.discord}" target="_blank">https://discord.gg/55gxzUrfKV</a></u>`;
-};
-
-export const tumblr = async (args: string[]): Promise<string> => {
-  window.open(`https://at.tumblr.com/karawa/hdw58xln54so${args.join(' ')}`);
-  return `Opening Kara's Tumblr...`;
+  return `username: karawrf - feel free to add me!, server invite: <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.discord}" target="_blank">https://discord.gg/55gxzUrfKV</a></u>`;
 };
 
 export const pronounspage = async (args: string[]): Promise<string> => {
@@ -154,16 +124,6 @@ export const whoami = async (args: string[]): Promise<string> => {
   return `${config.ps1_username}`;
 };
 
-export const avatar = async (args: string[]): Promise<string> => {
-  if (args[0] == "Y" || args[0] == "y") 
-  {
-    window.open(`https://downgit.github.io/#/home?url=https://github.com/KevinGamer790/liveterm-website/blob/main/downloads/Kara.KaraAvatar.rar`);
-    return 'Thank you for taking interest, I hope you enjoy playing as Kara!';
-  }
-  else {
-    return 'Would you like to download my Bonelabs avatar? <u><a href= "https://downgit.github.io/#/home?url=https://github.com/KevinGamer790/liveterm-website/blob/main/downloads/Kara.KaraAvatar.rar" target="https://downgit.github.io/#/home?url=https://github.com/KevinGamer790/liveterm-website/blob/main/downloads/Kara.KaraAvatar.rar">Click here</a></u> or type \'avatar Y\' to download!';
-  }
-};
 
 export const ls = async (args: string[]): Promise<string> => {
   return `Local Disk (C:) ███████████▒░░ 81%\nGoogle Drive (D:) ███░░░░░░░░░░░░░░░░░ 15%\nDATA (E:) ███████████▒░░░░ 71%\nSSD1TB (F:) ██████████████░░░░░░ 70%
@@ -171,8 +131,7 @@ export const ls = async (args: string[]): Promise<string> => {
 };
 
 export const cd = async (args: string[]): Promise<string> => {
-  return `unfortunately, i cannot afford more directories.
-if you want to help, you can type 'donate'.`;
+  return `unfortunately, i cannot afford more directories...`;
 };
 
 export const date = async (args: string[]): Promise<string> => {
@@ -181,62 +140,6 @@ export const date = async (args: string[]): Promise<string> => {
 
 export const sudo = async (args?: string[]): Promise<string> => {
   return `yeah... you're gonna need 'su'`;
-};
-
-export const taffy = async (args: string[]): Promise<string> => {
-  return `
-  @@@                                                                                           
-  @%%%%%%%@@                                                                                       
-@%%%%%%%%%%%%@                                  @@@@@                                              
-@%%%%@@%%%%%%%%%@                           @@%%%%%%%%%@                                            
-@%%%%@   @%%%%%%%%@           @@          @%%%%%%%%%%%%%%@                                           
-@%%%%%@     %%%%%%%%%@        @%%@      @&%%%%%%%%@@%%%%%%%@                                          
-@%%%@@@    %%@@@%%&@@@@@&@@@@ @%%%%@  @%%%%%%%%@     @%%%%%@                                          
-@&%%@      @%%%%%%%%%%%%%%%%%%&%%%%%@%%%%%%%%@       @%%%%%%@                            @@@%%%@      
-@&&&&@*@%%%%@@%%%%%%%%%%%%%%%%%%%%%@%%%%%%&          @%%%%%%@                      @@%%%%%%%%%%%@     
-.@&@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@%%%%%&           @%%%%%%@  ..             @&%%%%%%%%%%%@@%%%@     
-.#*%%%%%%%%%%%%######%%%%%%%%%%%%&&&%%%%%%%%&         @%%%%%%%@%//%         @%&%%%%%%%%%%@*,,,,@%%@     
-#******%%%%%%%%%%#######%%#%%%%%%%%%%%%%%%%%%&%%@         .@%%%%%%%%@///%  %%*******@%%%%%%%%@,,,,,,,@%%&     
-#******%%%%%%%%%%%%%%##%%%%%%%%%%%%%%%%/,#%%%%%@........%%%%%%%%%@///%***********@%%%%%%@******,,,@%%@      
-#@@***&%%%%%%%%@%%%%@%%%%%%%%%%%%%%%%%%%%%%%%%@@@%%%@%%%##%%%@(///***********@&&&&&@*******,,,*&%%@      
-@&@@*%%%%@@@@%%@%%%@%%%%@%%%%%%%%%%%%%%%%%%%%%%%@%%%%%%%%%%@((((/***************@@%%@*******,,@%%@       
-#*****@@((%@@@@#@%%%%%%@%%%%%%%%@%%%%%@%%%%%%%%%%%@%%%%%%%@(((((((**********,,********%%******@%%@        
-,&@@***#(%%%@%(#@@@&&%%%%%%@@@@@@@@@%%%%%%%%%%%%%%%%%%%%%%@(((*********/,,**********%/*****@%%%@        
-@@(#@....((  (@&%%%%%%@((@@,,,,%%%@%%%%%%%%%%%%%%%%%%%%@(***((*******,,********%%*/*****@%%&@         
-#,,,,,,,&  %  (//%%@@%,%@@%@(@....%(((%(%@%%%%%%%%%&%%%%%%@@*****************************%**@&%%@           
-#,,,,,,,,,  @@  %(((@@       @ %    (//  %%(%@%@@@@@@@     %******************************%/*@&&&&@            
-.###(,,        &            @ (   %**%%%%%@            %////****************#%/****/(****@&&&&&&&&#          
-#,,,,....     *%%%%%%@       @@ ,( %,,,*@@          .%((///////*/%///*****%*****/********@&&&&&&@            
-(,,,,..      .@&&&&&@          %@@@@                   %//%////%///////**/#%/**********/*****%             
-,#,,,,,.  &    @.           .                       %/////////////////////****************%               
-&&&*,,,*&.&&          &.                      %%//////////%//////////&&&&&&&&&&         *%            
-&(((*,/&&&&&      &&&&                         %((//////&&&&&&/////////&                      %          
-&(((((((((////&           %%%%,,,,,*,,/%%%%%%,,(((/&&.        //////////%                   %            
-&((((((((////////#/%%#//////#////%%%&@*,,,,,                     ////@@@@@@               /%              
-&&((((((((((/////////&*%,,,,,,/%%,,@%%%%%%@#,,,,.                    %%%%%%&@            %%                 
-&((((((((((((///////////&&/#,,,,,,,%%%%@,,,,,...... ..          &        @@@    &   ,     (,%                
-&(((((((((((((//*,,////////&#,@%%%%%%%%%%@&,,,,,........         &        &&&&&   &///////&/,&               
-@##@(((((((((((&(///////////////@%%%%%%%%%%%@@%@&&&&&@,,,,,,,,,       & //***&%   ///////////,,&               
-%#%%%%@(((((((((((((//////////////////@@@@@%%%%%@@@@%(&&////////((((#&(     ,&(   &///////,.///,&                
-@#%%%%%%%@(((((((((((((&//////////////////////////////////////////////((((((&&&&&//////////////,,@%%@             
-@%%%%%%%%@%%@(((((((////(((&//////////////////////////////////////////////////////////////////(%%%%%@%%@           
-@%%,/%%%%@%%%%&@(((((//////(((((&#///////////////////////////////////////////////////////@%%%%%%&&%%%%%@%@          
-@%%%%%%%%@%%%##%%%@((((/////////(((((((#&(////////////////////(&&(((((///////////////////@%%%%%%%%@%%%%%@%%@         
-&%%%%%%%%@%%%%%%%%%@@((((((/////////&((((((((((((((((((((((((((((((&//////*,*/////////@@%%%@%%%%%%%%%%%%@%%%@        
-@%%%%%%%%@%%%%%%%%%@,//@(((((((((((///////&#(((((((((((((((((((#&////////////////////(@&&&&%%%%%%%%%%%%%%@%%%@        
-@%%%%%%%%%@%%%%%%%%%%,,,///@@(((((((((.(((///////%&(((((((&&/////////////////////////&&@&&&&&&&&&%%%%%%%%%%@@%%@       
-@%%%%%%%%%%@%%%%%%%%%,,,,,,,//@%@@((((((((((((((((///////////////////////////////&&/////(@&&&&&&&&&&&&&%%%%@%%@%%@      
-@%%%%%%%%%%%&%%%%%%%%@,,,,,,,,%#%%%%%%@&&#(((((((((((((((/(&(%%%%%%%@////////&&///////////((&&&&&&&&&,&&&&&@%%@&%%%@     
-@%%%@((#@         &@%%*,,,,,,,,@%%##%%%%%%@(((((&&&&(((((@%%%%%%%&%%%%%%&@////////////////@@  @&&&&&&&&&&@&&&&@%%%%%(,.   
-@((@@##@              @,,,,,,,,,@%%%%%###%%%%@@(((((((((@&&&&%%%%%%%%%%%%%%@///////////(@((&(% %@&@@@@&&&&@&@&&&&&&%%%%%@  
-(%%%@%%#@              # @, #       @@%%%%###%&((((@@((((@&&&&&&&&&&&&&&%%@@@((((////#@((((////%  ((@&&&@@@&&&&&&&&&&%&&&&%@.
-%%%&@%%%@               @             @###@%@@@(((((((#&&&&&&&&&&&&&&&&&&&&&&&&(#@@ #(//  &&   /  %(@&&&&&&&&&&&&&###&&####&%
-%%%@%%%%@           # ,,@ #(        @%###%%##%%%%@(((@@&&&&@&&&&&&&&&&&&&&&&&&@&(/. %//  &&    /% @&@&&&&&&&&&&&&&&&&&&&&&#&&
-%%%%&@%%%.          ,@%            @%%%@@/,*#%%%%%%@&&&@&&&&&&@.,&&&&&&&&&&&@&&&(/  @(////////&&@ @&&&@&&&&&&&&&#&#%%&###&#&&
-
-                                        -Art by @Sir_Blunt on Twitter-
-                                              
-`;
 };
 
 export const friends = async (args: string[]): Promise<string> => {
@@ -271,6 +174,5 @@ export const banner = (args?: string[]): string => {
 Type 'help' to see the list of available commands.
 Type 'sumfetch' to display summary.
 Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repository.
-Type 'pronounspage' to view my Pronouns Page.
 `;
 };
