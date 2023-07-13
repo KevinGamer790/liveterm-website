@@ -153,7 +153,6 @@ kaha (@luvkaha)
 leaf (@gaymrow)
 goldy (@Goldensliv, <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.goldy}" target="_blank">https://i.hateithere.xyz</a></u>)
 kiki (@Kikicat1234, <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.kiki}" target="_blank">https://kikicat123.ca</a></u>)
-supbudy (@SupBudyasWel, <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.max}" target="_blank">https://en.pronouns.page/@supbudy</a></u>)
 `;
 };
 
