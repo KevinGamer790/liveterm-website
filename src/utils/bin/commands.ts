@@ -32,12 +32,12 @@ export const repo = async (args: string[]): Promise<string> => {
 // About
 export const about = async (args: string[]): Promise<string> => {
   return `Heya, I'm ${config.name}. 
-Welcome to my void!
+Welcome to my directory!
 | Heya! I'm Kara
 | I speak English and am currently learning French
 | Hobbyist web and game developer
 | Massive music enjoyer
-| Three time Cyberpatriot state champion
+| Four time Cyberpatriot state champion
 | Professional AFJROTC marksman
 | My discord username is 'karawrf', feel free to add me!`;
 };
@@ -93,11 +93,6 @@ export const discord = async (args: string[]): Promise<string> => {
   return `username: karawrf - feel free to add me!, server invite: <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.discord}" target="_blank">https://discord.gg/55gxzUrfKV</a></u>`;
 };
 
-export const pronounspage = async (args: string[]): Promise<string> => {
-  window.open(`https://en.pronouns.page/@Karawa${args.join(' ')}`);
-  return `Opening Kara's Pronouns Page`;
-};
-
 export const spotistats = async (args: string[]): Promise<string> => {
   window.open(`https://stats.fm/karawa${args.join(' ')}`);
   return `Opening Kara's stats.fm...`;
@@ -106,11 +101,6 @@ export const spotistats = async (args: string[]): Promise<string> => {
 export const scoresaber = async (args: string[]): Promise<string> => {
   window.open(`https://scoresaber.com/u/76561198232790108${args.join(' ')}`);
   return `Opening Kara's Scoresaber...`;
-};
-
-export const beatsaver = async (args: string[]): Promise<string> => {
-  window.open(`https://beatsaver.com/profile/4287063${args.join(' ')}`);
-  return `Opening Kara's Beatsaver...`;
 };
 
 
@@ -153,6 +143,7 @@ kaha (@luvkaha)
 leaf (@gaymrow)
 goldy (@Goldensliv, <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.goldy}" target="_blank">https://i.hateithere.xyz</a></u>)
 kiki (@Kikicat1234, <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.kiki}" target="_blank">https://kikicat123.ca</a></u>)
+Kaiote (@_KAIOTE_)
 `;
 };
 
